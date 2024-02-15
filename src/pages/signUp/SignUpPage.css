@@ -1,0 +1,72 @@
+.signUpPageHeader img{
+    height: 20px;
+    width: 95px;
+
+    margin: 25px 0px 0px 25px;
+}
+
+.signUpPageBody{
+    width: 284px;
+
+    margin-top: 51px;
+    margin-left: 65px;
+}
+
+.signUpPageLoginFormWrap{
+    text-align: center;
+}
+
+.signUpPageLoginFormWrap h2{
+    margin-bottom: 16px;
+}
+
+.signUpPageLoginFormWrap img{
+    width: 110px;
+    height: 110px;
+
+    margin-bottom: 20px;
+}
+
+.signUpPageLoginForm{
+    display: flex;
+    flex-direction: column;
+}
+
+.signUpPageLoginForm input{
+    height: 40px;
+
+    margin-bottom: 16px;
+    padding-left: 15px;
+
+    border-radius: 10px;
+    border: 1px solid black;
+}
+
+.signUpPageLoginForm button{
+    height: 40px;
+
+    margin-bottom: 16px;
+    padding-left: 15px;
+
+    border-radius: 10px;
+    border: 1px solid black;
+    color: black;
+}
+
+#signUpButton{
+    background-color: black;
+    color: white;
+}
+
+#signUpWithGoogleButton{
+    background-color: rgb(20, 14, 183);
+    border: 0;
+    color: white;
+}
+
+.signUpPageLoginFormText{
+    text-align: center;
+    font-size: 12px;
+
+    margin-top: 10px;
+}
