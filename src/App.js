@@ -19,7 +19,7 @@ class App extends Component{
           <Route path="/" element={<StartPage/>}/>;
           <Route path="/signin" element={<SignInPage/>}/>;
           <Route path="/signup" element={<SignUpPage/>}/>;
-          <Route path="/home" element={<HomePage/>}/>;
+          <Route path="/home/:id" element={<HomePage/>}/>;
           <Route path="/profile/:id" element={<ProfilePage/>}/>;
           <Route path="/task/create" element={<CreateNewTaskPage/>}/>;
           <Route path="/task/:task_id/edit" element={<EditTaskPage/>}/>;

@@ -9,6 +9,7 @@ import './StartPage.css'
 export default class StartPage extends Component{
 
     render(){
+        // localStorage.setItem('isLogin', false)
         return(
             <body className='startPageBody'>
                 <div className='startPageMainContent'>
